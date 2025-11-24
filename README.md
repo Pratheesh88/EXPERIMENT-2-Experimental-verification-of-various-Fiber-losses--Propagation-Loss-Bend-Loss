@@ -12,11 +12,13 @@ To measure propagation loss & bending losses for two different wavelengths in pl
 ## THEORY :
 
 Optical Fibers are available in different variety of materials. These materials are usually selected by taking into account their absorption characteristics for different wavelengths of light. In case of Optical Fiber, since the signal is transmitted in the form of light which is completely different in nature as that of electrons, one has to consider the interaction of matter the radiation to study the losses in fiber.
+<img width="743" height="301" alt="image" src="https://github.com/user-attachments/assets/b5e46377-c25a-4569-93cc-d48b9885c5f0" />
 
 Losses are introduced in fiber due to various reasons. As light propagates from one end of Fiber to another end, part of it is absorbed in the material exhibiting absorption loss. Also part of the light is reflected back or in some other directions from the impurity particles present in the material contributing to the loss of the signal at the other end of the Fiber. In general terms it is know as propagation loss. Plastic Fibers have higher loss of the order of 180 dB/Km.
 Whenever the condition for angel of incidence of the incident lights is violated the losses are introduced due to refraction of light. This occurs when fiber is subjected to bending. Lower the radius of curvature more is the loss. Other losses are due to the coupling of Fiber at LED and photo detector ends.
 
- 
+ <img width="716" height="294" alt="image" src="https://github.com/user-attachments/assets/22b816e8-e869-4e53-8ac7-1dea9556dd99" />
+
 
 	Connect the power supply with proper polarity to the kit link-B and switch it on.
 	Keep all Switch Faults in OFF position.
@@ -28,12 +30,14 @@ Whenever the condition for angel of incidence of the incident lights is violated
 	Keep Intensity control pot P2 towards minimum position.
 	Feed about 2Vpp sinusoidal signal of 1 KHz from the function generator to the IN post of Analog Buffer.
 
+<img width="696" height="286" alt="image" src="https://github.com/user-attachments/assets/2b73e156-6426-4335-89f0-bfb7549ea2c4" />
 
 
 	Connect the output post OUT of Analog Buffer to the post TX IN of Transmitter.
 	Slightly unscrew the cap of SFH756V (660nm). Do not remove the cap from the connector. Once the cap is loosened, insert the one meter fiber into the cap. Now tighten the cap by screwing it back.
 	Connect the other end of the Fiber to detector SFH350V (Photo Transistor Detector) very carefully.
 	Observe the detected signal at post ANALOG OUT on oscilloscope. Adjust Intensity control pot P2 Optical Power control potentiometer so that you receive signal of 2Vpp amplitude.
+<img width="829" height="342" alt="image" src="https://github.com/user-attachments/assets/e7ed4244-fc2b-4ee5-b7ba-5189465c8131" />
 
 
 	Measure the peak value of the received signal at ANALOG OUT terminal. Let this value be V1.
